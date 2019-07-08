@@ -68,7 +68,7 @@ I want to lear Flask, and I have troubles resolving basic problems like adding o
 ## Prepare application
 ```
 $ python3 -m venv env
-$ source env/bin/activate
+$ source env/bin/activate    # in windows $ env\Scripts\activate.bat
 $ pip install -r requirements.txt
 $ gunicorn --bind 0.0.0.0:5000 wsgi:app 
 
