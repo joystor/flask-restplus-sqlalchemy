@@ -1,0 +1,10 @@
+wheel
+gunicorn
+Flask
+Flask-SQLAlchemy
+flask-restplus==0.11.0
+Flask-Cors==3.0.2
+Authlib>=0.11
+Flask-Session
+pytest
+coverage
